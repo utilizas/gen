@@ -14,7 +14,7 @@ Web interactiva para explorar 25+ años de investigación en genética del compo
 - Tailwind CSS para estilos
 
 ## Ver en vivo
-[Enlace a tu sitio desplegado]
+[[Enlace a tu sitio desplegado](https://gencond.netlify.app/)]
 
 ## Licencia
 MIT License
