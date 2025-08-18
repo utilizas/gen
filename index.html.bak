@@ -2018,7 +2018,7 @@
 								<h5 class="font-semibold text-stone-800 mb-4">🔬 Innovaciones tecnológicas</h5>
 								<div class="space-y-4">
 									<div class="bg-gradient-to-r from-indigo-100 to-purple-100 p-4 rounded-lg">
-										<h6 class="font-medium text-indigo-800 mb-2">Terapia Génica en tejido cerebral</h6>
+										<h6 class="font-medium text-indigo-800 mb-2">Terapia Génica para Cerebro</h6>
 										<p class="text-stone-700 text-sm">
 											Vectores virales adenoasociados (AAV) pueden cruzar barrera hematoencefálica, 
 											permitiendo corrección genética de trastornos neurológicos. Ensayos clínicos 
@@ -2050,7 +2050,7 @@
 								<h5 class="font-semibold text-stone-800 mb-4">📱 Aplicaciones digitales</h5>
 								<div class="space-y-4">
 									<div class="bg-gradient-to-r from-blue-100 to-cyan-100 p-4 rounded-lg">
-										<h6 class="font-medium text-blue-800 mb-2">Apps de salud mental personalizadas</h6>
+										<h6 class="font-medium text-blue-800 mb-2">Apps de Salud Mental Personalizadas</h6>
 										<p class="text-stone-700 text-sm">
 											Algoritmos que integran datos genómicos, wearables y autorreporte 
 											para personalizar intervenciones de salud mental en tiempo real.
@@ -2058,7 +2058,7 @@
 									</div>
 									
 									<div class="bg-gradient-to-r from-orange-100 to-yellow-100 p-4 rounded-lg">
-										<h6 class="font-medium text-orange-800 mb-2">Educación adaptativa mediante IA</h6>
+										<h6 class="font-medium text-orange-800 mb-2">Educación adaptativa IA</h6>
 										<p class="text-stone-700 text-sm">
 											Plataformas que ajustan contenido, ritmo y metodología basándose 
 											en perfil neurocognitivo genético del estudiante.
