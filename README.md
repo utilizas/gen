@@ -1,6 +1,6 @@
 # Genética y Comportamiento Humano - Exploración Interactiva
 
-Web interactiva para explorar 25+ años de investigación en genética del comportamiento. Incluye estudios de heredabilidad y casos de aplicaciones clínicas recientes. El contenido ha sido diseñado para trabajar contenidos de epistemología, filosofía de la biología y biología del comportamiento en la materia *Teoría del conocimiento*.
+Web interactiva para explorar 25+ años de investigación en genética del comportamiento. Incluye estudios de heredabilidad y casos de aplicaciones clínicas recientes. El contenido ha sido diseñado para trabajar contenidos de epistemología, genética y biología del comportamiento en la materia *Teoría del conocimiento*.
 
 ## Características
 
