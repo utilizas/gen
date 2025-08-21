@@ -1,6 +1,6 @@
 # Genética y Comportamiento Humano - Exploración Interactiva
 
-Web interactiva para explorar 25+ años de investigación en genética del comportamiento. Incluye estudios de heredabilidad y casos de aplicaciones clínicas recientes.
+Web interactiva para explorar 25+ años de investigación en genética del comportamiento. Incluye estudios de heredabilidad y casos de aplicaciones clínicas recientes. El contenido ha sido diseñado para trabajar contenidos de epistemología, filosofía de la biología y biología del comportamiento en la materia *Teoría del conocimiento*.
 
 ## Características
 
@@ -15,9 +15,10 @@ Web interactiva para explorar 25+ años de investigación en genética del compo
 - Chart.js para visualizaciones
 - Tailwind CSS para estilos
 
-## Ver en vivo
+## Ver sitio desplegado
 
-[[Enlace al sitio desplegado en Netlify](https://gencond.netlify.app/)]
+- [Netlify](https://gencond.netlify.app/)
+- [Vercel](https://gen-chi.vercel.app/)
 
 ## Licencia
 
