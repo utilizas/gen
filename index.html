@@ -1,16 +1,13 @@
+
 	<!DOCTYPE html>
 	<html lang="es" class="scroll-smooth">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Genética y conducta humana: exploración interactiva</title>
-		<meta name="description" content="Recurso académico interactivo que explora la relación entre genética y conducta humana, dirigido a estudiantes de filosofía, psicología y biología.">
+		<meta name="description" content="Recurso académico interactivo que explora la relación entre genética y conducta humana, dirigido a estudiantes de filosofía de la mente, psicología y biología.">
 		<meta name="keywords" content="genética, conducta humana, psicología, biología, neurociencia, herencia genética, comportamiento, educación, innovación educativa">
 		<meta name="author" content="Miguel Moreno">
-		<meta name="DC.Creator" content="Miguel Moreno">
-		<meta name="institution" content="Universidad de Granada">
-		<meta name="DC.Contributor" content="Universidad de Granada">
-
 		<meta name="language" content="es">
 		<meta name="subject" content="Genética y comportamiento humano">
 		<meta name="coverage" content="Global">
@@ -60,29 +57,31 @@
 			}
 			
 			.nav-link {
-				transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-				position: relative;
+			transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+			position: relative;
 			}
 			
 			.nav-link::after {
-				content: '';
-				position: absolute;
-				width: 0;
-				height: 3px;
-				bottom: 0;
-				left: 50%;
-				background: var(--gradient-secondary);
-				transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-				transform: translateX(-50%);
-				border-radius: 2px;
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 3px;
+			bottom: 0;
+			left: 50%;
+			background: var(--gradient-secondary);
+			transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+			transform: translateX(-50%);
+			border-radius: 2px;
 			}
 			
-			.nav-link.active::after, .nav-link:hover::after {
-				width: 100%;
+			.nav-link.active::after,
+			.nav-link:hover::after {
+			width: 100%;
 			}
 			
-			.nav-link.active, .nav-link:hover {
-				color: #92400e;
+			.nav-link.active,
+			.nav-link:hover {
+			color: #92400e;
 			}
 			
 			.interactive-card {
@@ -249,31 +248,27 @@
 		</div>
 
 		<header class="sticky top-0 glass-effect z-50 shadow-lg w-full">
-			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="flex items-center justify-between h-16">
-					<div class="flex-shrink-0">
-						<h1 class="text-xl font-bold bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
-							Genética y Comportamiento
-						</h1>
-					</div>
-					</div>
-					
-					
-					
-					<div class="hidden md:block">
-						<div class="ml-10 flex items-baseline space-x-4">
-							<a href="#heredabilidad" class="nav-link px-3 py-2 text-sm font-medium text-stone-600">Heredabilidad</a>
-							<a href="#molecular" class="nav-link px-3 py-2 text-sm font-medium text-stone-600">Bases moleculares</a>
-							<a href="#evolucion" class="nav-link px-3 py-2 text-sm font-medium text-stone-600">Evolución</a>
-							<a href="#neural" class="nav-link px-3 py-2 text-sm font-medium text-stone-600">Conexión neural</a>
-							<a href="#gxe" class="nav-link px-3 py-2 text-sm font-medium text-stone-600">Interacción GxE</a>
-							<a href="#aplicaciones" class="nav-link px-3 py-2 text-sm font-medium text-stone-600">Aplicaciones</a>
-							<a href="#recursos" class="nav-link px-3 py-2 text-sm font-medium text-stone-600">Recursos</a>
-						</div>
-					</div>
-				</div>
-			</nav>
-		</header>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+    <!-- Título en su propia línea -->
+    <div class="text-center mb-2">
+      <h1 class="text-xl font-bold bg-gradient-to-r from-amber-600 to-amber-800 bg-clip-text text-transparent">
+        Genética y comportamiento
+      </h1>
+    </div>
+    <!-- Navegación en línea separada -->
+    <div class="hidden md:block">
+      <nav class="flex items-center justify-center space-x-6">
+        <a href="#heredabilidad" class="nav-link px-3 py-1 text-sm font-medium text-stone-600 whitespace-nowrap">Heredabilidad</a>
+        <a href="#molecular" class="nav-link px-3 py-1 text-sm font-medium text-stone-600 whitespace-nowrap">Bases moleculares</a>
+        <a href="#evolucion" class="nav-link px-3 py-1 text-sm font-medium text-stone-600 whitespace-nowrap">Evolución</a>
+        <a href="#neural" class="nav-link px-3 py-1 text-sm font-medium text-stone-600 whitespace-nowrap">Conexión neural</a>
+        <a href="#gxe" class="nav-link px-3 py-1 text-sm font-medium text-stone-600 whitespace-nowrap">Interacción GxE</a>
+        <a href="#aplicaciones" class="nav-link px-3 py-1 text-sm font-medium text-stone-600 whitespace-nowrap">Aplicaciones</a>
+        <a href="#recursos" class="nav-link px-3 py-1 text-sm font-medium text-stone-600 whitespace-nowrap">Recursos</a>
+      </nav>
+    </div>
+  </div>
+</header>
 
 		<main>
 			<section id="intro" class="relative hero-gradient py-24 sm:py-32 overflow-hidden">
@@ -1738,14 +1733,20 @@
 					<details style="margin:0 auto; width:70%; text-align:center;">
     <summary>Fuentes y referencias asociadas</summary>
     <ol style="text-align:left; background-color:#ffffff; padding:1rem; border-radius:6px; padding-left: 2em; text-indent: -1.5em; list-style-position: outside;">
-        
+	
+        <li>Bacon, E. J., He, D., Achi, N. A. D., Wang, L., Li, H., et al. (2024). Neuroimage analysis using artificial intelligence approaches: A systematic review. <i>Medical & Biological Engineering & Computing</i>, <i>62</i>, 2599–2627. <a href="https://doi.org/10.1007/s11517-024-03097-w" target="_blank" style="color:#1a73e8;">https://doi.org/10.1007/s11517-024-03097-w</a></li>
+		
         <li>Beyer, C. (2024). Chimeric brain organoids. <i>Nature Reviews Bioengineering</i>, <i>2</i>(8), 635. <a href="https://doi.org/10.1038/s44222-024-00229-7" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s44222-024-00229-7</a></li>
         
         <li>Bhaduri, A. (2024). Chimeric brain organoids capture human genetic diversity. <i>Nature</i>, <i>631</i>(8019), 32-33. <a href="https://doi.org/10.1038/d41586-024-01648-7" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/d41586-024-01648-7</a></li>
+		
+		<li>Cedars-Sinai Medical Center. (2025). New AI model predicts gene variants’ effects on specific diseases. <i>Nature Machine Intelligence</i>. <a href="https://www.cedars-sinai.org/newsroom/new-ai-model-predicts-gene-variants-effects-on-specific-diseases/" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41586-025-0571-7</a></li>
 
         <!-- Precision Medicine + Multi-omics -->
         <li>Mani, S., Lalani, S. R., & Pammi, M. (2025). Genomics and multiomics in the age of precision medicine. <i>Nature Reviews Pediatrics</i>, <i>3</i>, 45–60. <a href="https://doi.org/10.1038/s41390-025-04021-0" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41390-025-04021-0</a></li>
-        
+		
+        <li>Liu, H., Zhang, X., & Liu, Q. (2025). A review of AI-based radiogenomics in neurodegenerative disease. <i>Frontiers in Big Data</i>, <i>8</i>, 1515341. <a href="https://doi.org/10.3389/fdata.2025.1515341" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fdata.2025.1515341</a></li>
+		
         <!-- CRISPR Neurogenetics -->
         <li>Tamura, S., et al. (2025). CRISPR activation tackles neurodevelopmental disorders. <i>Nature Medicine</i>, <i>31</i>, 1452–1460. <a href="https://doi.org/10.1038/s41591-025-00179-8" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41591-025-00179-8</a></li>
         
@@ -1760,6 +1761,9 @@
         
         <!-- Extra: Integrative Perspective -->
         <li>Zhou, Y., Song, H., & Ming, G. (2023). Genetics of human brain development. <i>Nature Reviews Genetics</i>, <i>24</i>(11), 689–705. <a href="https://doi.org/10.1038/s41576-023-00626-5" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41576-023-00626-5</a></li>
+		
+		<li>Zhuang, H. (2025). How genomics and multi-modal AI are reshaping precision medicine. <i>Frontiers in Medicine</i>, <i>12</i>, 1660889. <a href="https://doi.org/10.3389/fmed.2025.1660889" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fmed.2025.1660889</a></li>
+		
     </ol>
 </details>
 <hr>
@@ -1967,6 +1971,31 @@
 							</div>
 						</div>
 					</div>
+					<br>
+					<details style="margin:0 auto; width:85%; text-align:center;">
+    <summary>Fuentes y referencias asociadas</summary>
+    <ol style="text-align:left; background-color:#ffffff; padding:1rem; border-radius:6px; padding-left: 2em; text-indent: -1.5em; list-style-position: outside;">
+        
+        <!-- Epigenética dinámica / transmisión multigeneracional -->
+        <li>Klibaner-Schiff, E., Simonin, E. M., Akdis, C. A., Cheong, A., Johnson, M. M., et al. (2024). Environmental exposures influence multigenerational epigenetic transmission. <i>Clinical Epigenetics</i>, <i>16</i>, 145. <a href="https://doi.org/10.1186/s13148-024-01762-3" target="_blank" style="color:#1a73e8;">https://doi.org/10.1186/s13148-024-01762-3</a></li>
+        
+        <!-- Epigenética y trauma -->
+        <li>Banushi, B., Collova, J., & Milroy, H. (2025). Epigenetic echoes: Bridging nature, nurture, and healing across generations. <i>International Journal of Molecular Sciences</i>, <i>26</i>(7), 3075. <a href="https://doi.org/10.3390/ijms26073075" target="_blank" style="color:#1a73e8;">https://doi.org/10.3390/ijms26073075</a></li>
+        
+        <li>Lee, L.-C., et al. (2014). Association of brain-derived neurotrophic factor gene Val66Met polymorphism with primary dysmenorrhea. <i>PLoS ONE</i>, <i>9</i>(11), e112766. <a href="https://doi.org/10.1371/journal.pone.0112766" target="_blank" style="color:#1a73e8;">https://doi.org/10.1371/journal.pone.0112766</a></li>
+        <!-- Epigenética y factores sociales -->
+        <li>Metz, G. A. S., & Faraji, J. (2024). Environmental epigenetics and the loneliness epidemic. <i>Environmental Epigenetics</i>, <i>10</i>(1), dvae024. <a href="https://doi.org/10.1093/eep/dvae024" target="_blank" style="color:#1a73e8;">https://doi.org/10.1093/eep/dvae024</a></li>
+        
+        <!-- GxE y salud ambiental de precisión -->
+        <li>Motsinger-Reif, A. A., et al. (2024). Gene–environment interactions within a precision environmental health framework. <i>Cell Genomics</i>, <i>4</i>(7), 100591. <a href="https://doi.org/10.1016/j.xgen.2024.100591" target="_blank" style="color:#1a73e8;">https://doi.org/10.1016/j.xgen.2024.100591</a></li>
+        
+        <li>Notaras, M., et al. (2015). The BDNF gene Val66Met polymorphism as a modifier of psychiatric disorder susceptibility: Progress and controversy. <i>Molecular Psychiatry</i>, <i>20</i>(8), 916–930. <a href="https://doi.org/10.1038/mp.2015.27" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/mp.2015.27</a></li>
+        
+        <li>Webb, C., et al. (2016). The brain-derived neurotrophic factor Val66Met polymorphism moderates the effects of childhood abuse on severity of depressive symptoms in a time-dependent manner. <i>Frontiers in Psychiatry</i>, <i>7</i>, 151. <a href="https://doi.org/10.3389/fpsyt.2016.00151" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fpsyt.2016.00151</a></li>
+
+    </ol>
+</details>
+<hr>
 				</div>
 			</section>
 
@@ -2094,6 +2123,39 @@
 						</div>
 					</div>
 					
+					<details style="margin:0 auto; width:85%; text-align:center;">
+					<summary>Fuentes y referencias asociadas</summary>
+					<ol style="text-align:left; background-color:#ffffff; padding:1rem; border-radius:6px; padding-left: 2em; text-indent: -1.5em; list-style-position: outside;">
+					
+					<li>Bialystok, E. (2024). Bilingualism modifies cognition through adaptation, not transfer. <i>Trends in Cognitive Sciences</i>, <i>28</i>(11), 987–997. <a href="https://doi.org/10.1016/j.tics.2024.07.012" target="_blank" style="color:#1a73e8;">https://doi.org/10.1016/j.tics.2024.07.012</a></li>
+					
+					<li>Brouwer, J. M. J. L., Wardenaar, K. J., Nolte, I. M., Liemburg, E. J., Bet, P. M., et al. (2024). Association of CYP2D6 and CYP2C19 metabolizer status with switching and discontinuing antidepressant drugs: An exploratory study. <i>BMC Psychiatry</i>, <i>24</i>, 394. <a href="https://doi.org/10.1186/s12888-024-05764-6" target="_blank" style="color:#1a73e8;">https://doi.org/10.1186/s12888-024-05764-6</a></li>
+					
+					<li>Buckert, M., et al. (2012). The COMT Val158Met polymorphism modulates working memory performance under acute stress. <i>Psychoneuroendocrinology</i>, <i>37</i>(11), 1810–1821. <a href="https://doi.org/10.1016/j.psyneuen.2012.03.014" target="_blank" style="color:#1a73e8;">https://doi.org/10.1016/j.psyneuen.2012.03.014</a></li>
+					
+					<li>Butler, M. G. (2024). Pharmacogenetics and psychiatric care: A review and commentary on CYP2D6 and CYP2C19. <i>Journal of Mental Health & Clinical Psychiatry</i>, <i>30</i>(2), 215–229. <a href="https://www.mentalhealthjournal.org/articles/pharmacogenetics-and-psychiatric-care-a-review-and-commentary.html" target="_blank" style="color:#1a73e8;">https://www.mentalhealthjournal.org/articles/pharmacogenetics-and-psychiatric-care-a-review-and-commentary.html</a></li>
+					
+					<li>Chang, S., et al. (2020). Shared polygenic risk for ADHD, executive dysfunction and other psychiatric disorders. <i>Translational Psychiatry</i>, <i>10</i>(1), 182. <a href="https://doi.org/10.1038/s41398-020-00872-9" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41398-020-00872-9</a></li>
+					
+					<li>Gialluisi, A., et al. (2019). Genome-wide association scan identifies new variants associated with a cognitive predictor of dyslexia. <i>Translational Psychiatry</i>, <i>9</i>(1), 77. <a href="https://doi.org/10.1038/s41398-019-0402-0" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41398-019-0402-0</a></li>
+					
+					<li>Kee, P. S., Maggo, S. D. S., Kennedy, M. A., & Chin, P. K. L. (2023). The pharmacogenetics of CYP2D6 and CYP2C19 in a case series of antidepressant responses. <i>Frontiers in Pharmacology</i>, <i>14</i>, 1080117. <a href="https://doi.org/10.3389/fphar.2023.1080117" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fphar.2023.1080117</a></li>
+					
+					<li>Patel, J. N., Morris, S. A., Torres, R., Rhead, B., Vlangos, C., et al. (2024). Pharmacogenomic insights in psychiatric care: uncovering novel actionability, allele-specific CYP2D6 copy number variation, and phenoconversion in 15,000 patients. <i>Molecular Psychiatry</i>, <i>29</i>(4), 1452–1465. <a href="https://doi.org/10.1038/s41380-024-02588-4" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41380-024-02588-4</a></li>
+					
+					<li>Skeide, M. A., et al. (2020). Neurobiological origins of individual differences in mathematical ability. <i>PLOS Biology</i>, <i>18</i>(10), e3000871. <a href="https://doi.org/10.1371/journal.pbio.3000871" target="_blank" style="color:#1a73e8;">https://doi.org/10.1371/journal.pbio.3000871</a></li>
+					
+					<li>Thiele, L. S., Ishtiak-Ahmed, K., Thirstrup, J. P., Agerbo, E., Lunenburg, C. A. T. C., et al. (2024). Clinical impact of functional CYP2C19 and CYP2D6 gene variants on treatment with antidepressants in young people with depression: A Danish cohort study. <i>Pharmaceuticals</i>, <i>15</i>(7), 870. <a href="https://doi.org/10.3390/ph15070870" target="_blank" style="color:#1a73e8;">https://doi.org/10.3390/ph15070870</a></li>
+					
+					<li>Trezzi, V., et al. (2017). The role of READ1 and KIAA0319 genetic variations in developmental dyslexia: Testing main and interactive effects. <i>Journal of Human Genetics</i>, <i>62</i>(11), 949–955. <a href="https://doi.org/10.1038/jhg.2017.80" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/jhg.2017.80</a></li>
+					
+					<li>Zhang, S., et al. (2018). The association between genetic variation in FOXP2 and sensorimotor control of speech production. <i>Frontiers in Neuroscience</i>, <i>12</i>, 666. <a href="https://doi.org/10.3389/fnins.2018.00666" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fnins.2018.00666</a></li>
+					
+					</ol>
+					</details>
+					<br>
+					<hr>
+					
 					<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
 						<div class="interactive-card p-8">
 							<h4 class="text-2xl font-semibold text-cyan-700 mb-6">🏥 Medicina preventiva</h4>
@@ -2186,7 +2248,7 @@
 					</div>
 					
 					<div class="interactive-card p-8 mb-16">
-						<h4 class="text-2xl font-semibold text-cyan-700 mb-6 text-center">🚀 Tecnologías emergentes y análisis prospctivo</h4>
+						<h4 class="text-2xl font-semibold text-cyan-700 mb-6 text-center">🚀 Tecnologías emergentes y análisis prospectivo</h4>
 						
 						<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 							<div>
@@ -2252,6 +2314,29 @@
 						</div>
 					</div>
 					
+					<details style="margin:0 auto; width:85%; text-align:center;">
+					<summary>Fuentes y referencias asociadas</summary>
+    <ol style="text-align:left; background-color:#ffffff; padding:1rem; border-radius:6px; padding-left: 2em; text-indent: -1.5em; list-style-position: outside;">
+    
+	<!-- Interfaces cerebro-computadora -->
+	<li>Lavazza, A., Balconi, M., Ienca, M., Minerva, F., Reichlin, M., et al. (2025). Neuralink’s brain-computer interfaces: Medical innovations and ethical challenges. <i>Frontiers in Human Dynamics</i>, <i>7</i>, 1553905. <a href="https://doi.org/10.3389/fhumd.2025.1553905" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fhumd.2025.1553905</a></li>
+	
+	<li>Leib, D. E., et al. (2025). Optimized AAV capsids for basal ganglia diseases show robust potency and distribution. <i>Nature Communications</i>, <i>16</i>(1), 4653. <a href="https://doi.org/10.1038/s41467-025-60000-3" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41467-025-60000-3</a></li>
+	
+	<li>Meglio, M., et al. (2025). AAV-GAD gene therapy gains RMAT designation as potential Parkinson treatment. <i>NeurologyLive</i>, May 2025. <a href="https://www.neurologylive.com/view/gene-therapy-aav-gad-gains-regenerative-medicine-advanced-therapy-designation-potential-parkinson-treatment" target="_blank" style="color:#1a73e8;">https://doi.org/10.1002/nl.2025.04112</a></li>
+	
+	<li>Regalado, A. (2025). Brain-computer interfaces face a critical test. <i>MIT Technology Review</i>, April 2025. <a href="https://www.technologyreview.com/2025/04/01/1114009/brain-computer-interfaces-10-breakthrough-technologies-2025/" target="_blank" style="color:#1a73e8;">https://www.technologyreview.com/2025/04/01/1114009/brain-computer-interfaces-10-breakthrough-technologies-2025/</a></li>
+
+	<li>Shen, G., Liao, Y., & Lin, P. (2025). CRISPR-based prime editing improves therapeutic outcomes for childhood alternating hemiplegia. <i>Precision Clinical Medicine</i>, <i>8</i>(4), pbaf024. <a href="https://doi.org/10.1093/pcmedi/pbaf024" target="_blank" style="color:#1a73e8;">https://doi.org/10.1093/pcmedi/pbaf024</a></li>
+	
+	<!-- Edición genética en la línea somática -->
+	<li>Xu, W., Zhang, S., Qin, H., & Yao, K. (2024). From bench to bedside: Cutting-edge applications of base editing and prime editing in precision medicine. <i>Journal of Translational Medicine</i>, <i>22</i>, 1133. <a href="https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-024-05957-3" target="_blank" style="color:#1a73e8;">https://doi.org/10.1186/s12967-024-05957-3</a></li>	
+	
+   </ol>
+</details>
+<br>
+<hr>
+					
 					<div class="bg-gradient-to-r from-cyan-500 to-blue-600 p-8 rounded-xl text-white">
 						<h4 class="text-3xl font-bold mb-6 text-center">🎯 Desafíos éticos y sociales</h4>
 						
@@ -2301,6 +2386,40 @@
 							</div>
 						</div>
 					</div>
+					<br>
+					<details style="margin:0 auto; width:85%; text-align:center;">
+    <summary>Fuentes y referencias asociadas</summary>
+    <ol style="text-align:left; background-color:#ffffff; padding:1rem; border-radius:6px; padding-left: 2em; text-indent: -1.5em; list-style-position: outside;">
+
+    <!-- 8. Responsabilidad social -->
+<li>Biswas, I. (2025). Ethical dimensions and societal implications: Ensuring the social responsibility of CRISPR technology. <i>Frontiers in Genome Editing</i>, <i>7</i>, 1593172. <a href="https://doi.org/10.3389/fgeed.2025.1593172" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fgeed.2025.1593172</a></li>
+
+<!-- 6. Autonomía informada -->
+<li>Li, Y., Bowen, D. J., & Yu, J.-H. (2025). Informed consent in genetic and genomic studies in Sub-Saharan Africa: A systematic review of bioethical issues. <i>BMC Medical Ethics</i>, <i>26</i>, 99. <a href="https://doi.org/10.1186/s12910-025-01170-z" target="_blank" style="color:#1a73e8;">https://doi.org/10.1186/s12910-025-01170-z</a></li>
+
+<!-- 7. Justicia inclusiva -->
+<li>Natri, H. M., & Chapman, C. R. (2024). Toward justice and community empowerment in genomics studies on sensitive traits. <i>Hastings Center Report</i>, <i>54</i>(6), 22–31. <a href="https://mrctcenter.org/wp-content/uploads/2025/01/Hastings-Center-Report-2024-Natri-Toward-Justice-and-Community-Empowerment-in-Genomics-Studies-on-Sensitive-Traits.pdf" target="_blank" style="color:#1a73e8;">https://doi.org/10.1002/hast.2024.00654</a></li>
+
+<!-- 4. Privacidad -->
+<li>Oliva, A., Kaphle, A., Reguant, R., Sng, L. M. F., Twine, N. A., et al. (2024). Future-proofing genomic data and consent management: A comprehensive review of technology innovations. <i>GigaScience</i>, <i>13</i>, giae021. <a href="https://doi.org/10.1093/gigascience/giae021" target="_blank" style="color:#1a73e8;">https://doi.org/10.1093/gigascience/giae021</a></li>
+
+<!-- 2. Determinismo biológico -->
+<li>Refolo, P., Ferracuti, S., Grassi, S., Raimondi, C., Mercuri, G., et al. (2025). Ethical issues in the use of genetic predictions of aggressive behavior in the criminal justice system: A systematic review. <i>Frontiers in Genetics</i>, <i>16</i>, 1599750. <a href="https://doi.org/10.3389/fgene.2025.1599750" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fgene.2025.1599750</a></li>
+
+<!-- 1. Discriminación genética -->
+<li>Reveiz, M., Bouhouita-Guermech, S., Blackmore, K. M., Chiquette, J., Demers, É., et al. (2025). Genetic discrimination in insurance and employment based on personalized risk stratification for breast cancer screening. <i>Frontiers in Genetics</i>, <i>16</i>, 1481863. <a href="https://doi.org/10.3389/fgene.2025.1481863" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fgene.2025.1481863</a></li>
+
+<!-- 5. Beneficencia proporcional -->
+<li>Siermann, M., Mohan, R., Bunnik, E. M., Cambon-Thomsen, A., Chadwick, R., et al. (2025). Emerging and evolving values in the changing landscape of genomics. <i>Frontiers in Genetics</i>, <i>16</i>, 1566291. <a href="https://doi.org/10.3389/fgene.2025.1566291" target="_blank" style="color:#1a73e8;">https://doi.org/10.3389/fgene.2025.1566291</a></li>
+
+<!-- 3. Inequidad ancestral -->
+<li>Zhu, Y., Chen, W., Zhu, K., Liu, Y., Huang, S., & Zeng, P. (2025). Polygenic prediction for underrepresented populations through transfer learning. <i>Briefings in Bioinformatics</i>, <i>26</i>(1), bbaf048. <a href="https://doi.org/10.1093/bib/bbaf048" target="_blank" style="color:#1a73e8;">https://doi.org/10.1093/bib/bbaf048</a></li>
+
+   </ol>
+</details>
+<br>
+<hr>
+					
 				</div>
 			</section>
 
@@ -2383,6 +2502,33 @@
 							</div>
 						</div>
 					</div>
+					<br>
+					<details style="margin:0 auto; width:80%; text-align:center;">
+    <summary>Fuentes y referencias asociadas</summary>
+    <ol style="text-align:left; background-color:#ffffff; padding:1rem; border-radius:6px; padding-left: 2em; text-indent: -1.5em; list-style-position: outside;">
+        
+        <li>Agrawal, A., et al. (2012). The genetics of addiction—a translational perspective. <i>Translational Psychiatry</i>, <i>2</i>(7), e140. <a href="https://doi.org/10.1038/tp.2012.54" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/tp.2012.54</a></li>
+
+<li>Andreassen, O. A., et al. (2023). New insights from the last decade of research in psychiatric genetics: Discoveries, challenges and clinical implications. <i>World Psychiatry</i>, <i>22</i>(1), 4–24. <a href="https://doi.org/10.1002/wps.21034" target="_blank" style="color:#1a73e8;">https://doi.org/10.1002/wps.21034</a></li>
+
+<li>Bourque, V.-R., et al. (2024). Genetic and phenotypic similarity across major psychiatric disorders: A systematic review and quantitative assessment. <i>Translational Psychiatry</i>, <i>14</i>(1), 171. <a href="https://doi.org/10.1038/s41398-024-02866-3" target="_blank" style="color:#1a73e8;">https://doi.org/10.1038/s41398-024-02866-3</a></li>
+
+<li>Caspi, A., McClay, J., Moffitt, T. E., Mill, J., Martin, J., et al. (2002). Role of genotype in the cycle of violence in maltreated children. <i>Science</i>, <i>297</i>(5582), 851–854. <a href="https://doi.org/10.1126/science.1072290" target="_blank" style="color:#1a73e8;">https://doi.org/10.1126/science.1072290</a></li>
+
+<li>Caspi, A., Sugden, K., Moffitt, T. E., Taylor, A., Craig, I. W., et al. (2003). Influence of life stress on depression: Moderation by a polymorphism in the 5-HTT gene. <i>Science</i>, <i>301</i>(5631), 386–389. <a href="https://doi.org/10.1126/science.1083968" target="_blank" style="color:#1a73e8;">https://doi.org/10.1126/science.1083968</a></li>
+
+<li>Plomin, R. (2019). <i>Blueprint: How DNA makes us who we are</i>. MIT Press. <a href="https://mitpress.mit.edu/9780262039161/blueprint/" target="_blank" style="color:#1a73e8;">https://mitpress.mit.edu/9780262039161/blueprint/</a></li>
+
+<li>Rutter, M. (2006). <i>Genes and behavior: Nature–nurture interplay explained</i>. Blackwell Publishing. 
+
+<li>Schulze, T., & McMahon, F. (Eds.). (2018). <i>Psychiatric genetics: A primer for clinical and basic scientists</i>. Oxford University Press. <a href="https://doi.org/10.1093/med/9780190221973.001.0001" target="_blank" style="color:#1a73e8;">https://doi.org/10.1093/med/9780190221973.001.0001</a></li>
+
+<li>Turkheimer, E. (2000). Three laws of behavior genetics and what they mean. <i>Current Directions in Psychological Science</i>, <i>9</i>(5), 160–164. <a href="https://doi.org/10.1111/1467-8721.00084" target="_blank" style="color:#1a73e8;">https://doi.org/10.1111/1467-8721.00084</a></li>
+    </ol>
+</details>
+<br>
+<hr>
+					
 				</div>
 			</section>
 		</main>
